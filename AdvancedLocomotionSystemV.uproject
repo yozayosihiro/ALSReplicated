@@ -6,15 +6,15 @@
 	"Plugins": [
 		{
 			"Name": "AdvancedSteamSessions",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "AdvancedSessions",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "HoudiniEngine",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }
