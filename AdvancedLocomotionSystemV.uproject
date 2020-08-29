@@ -15,6 +15,10 @@
 		{
 			"Name": "HoudiniEngine",
 			"Enabled": false
+		},
+		{
+			"Name": "RiderLink",
+			"Enabled": false
 		}
 	]
 }
