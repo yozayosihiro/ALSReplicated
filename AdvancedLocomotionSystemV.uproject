@@ -4,21 +4,6 @@
 	"Category": "",
 	"Description": "",
 	"Plugins": [
-		{
-			"Name": "AdvancedSteamSessions",
-			"Enabled": false
-		},
-		{
-			"Name": "AdvancedSessions",
-			"Enabled": false
-		},
-		{
-			"Name": "HoudiniEngine",
-			"Enabled": false
-		},
-		{
-			"Name": "RiderLink",
-			"Enabled": false
-		}
+	
 	]
 }
