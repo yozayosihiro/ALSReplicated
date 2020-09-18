@@ -22,6 +22,16 @@ A description of what should happen.
 A description of what actually happens.
 ```
 
+```
+Cesio137 ALSV4 Replicated BP :
+Total outgoing bandwidth is  655KB over 60 seconds (30 seconds playing server, 30 on client).
+Character Actor Data sent over network - 35.8KB
+'ReplicatedMovement' Data sent over network - 19.6KB
+Highest RPC Data sent over network - 70.3KB
+Overall Property Size - 38KB
+Overall RPC Size - 132.2KB
+```
+
 # Setting Up Your Project
 - Clone the repository or download the latest release.
 - Move `ALSReplicated\Content\AdvancedLocomotionV4` folder into your project's `Content` folder
