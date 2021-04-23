@@ -6,6 +6,7 @@ Discussion regarding the replication effort of ALS should take place on the offi
 This repository will operate on a series of pull requests. You are free to download modify and pull request your modifications in. If it meets with the criteria of effectively replicating the project, it will be reviewed and merged in.
 
 ###Sponsor me
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=QFWLDAD4MMT3E)
 
 
