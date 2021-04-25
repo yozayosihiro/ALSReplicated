@@ -3,14 +3,19 @@ This is a community-based effort to fully and effectively replicate Advanced Loc
 
 Discussion regarding the replication effort of ALS should take place on the official discord for Advanced Locomotion System here: https://discord.gg/wYYMHFu
 
+<p align="center">
+  <a href="https://discord.gg/wYYMHFu"><img src="https://i.imgur.com/LP9bZQj.png"></a>
+</p>
+
 This repository will operate on a series of pull requests. You are free to download modify and pull request your modifications in. If it meets with the criteria of effectively replicating the project, it will be reviewed and merged in.
 
-### Sponsor me
+## Sponsor me
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=QFWLDAD4MMT3E)
+<p align="center">
+  <a href="https://www.paypal.com/donate?hosted_button_id=QFWLDAD4MMT3E"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
+</p>
 
-
-Bug Reporting Template:
+### Bug Reporting Template:
 ```
 **Detailed description of issue**
 Write a detailed explanation of the issue here.
@@ -25,16 +30,6 @@ A description of what should happen.
 
 **Actual Results:**
 A description of what actually happens.
-```
-
-```
-Cesio137 ALSV4 Replicated BP :
-Total outgoing bandwidth is  655KB over 60 seconds (30 seconds playing server, 30 on client).
-Character Actor Data sent over network - 35.8KB
-'ReplicatedMovement' Data sent over network - 19.6KB
-Highest RPC Data sent over network - 70.3KB
-Overall Property Size - 38KB
-Overall RPC Size - 132.2KB
 ```
 
 # Setting Up Your Project
