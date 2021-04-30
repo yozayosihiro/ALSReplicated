@@ -12,7 +12,7 @@ This repository will operate on a series of pull requests. You are free to downl
 ## Sponsor me
 
 <p align="center">
-  <a href="https://www.paypal.com/donate?hosted_button_id=QFWLDAD4MMT3E"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
+  <a>fixing something</a>
 </p>
 
 ### Bug Reporting Template:
