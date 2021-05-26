@@ -12,7 +12,10 @@ This repository will operate on a series of pull requests. You are free to downl
 ## Sponsor me
 
 <p align="center">
-  <a>fixing something</a>
+  <a href="https://www.paypal.com/donate?hosted_button_id=L48BPZ4VVCN6Q"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
+</p>
+<p align="center">
+  <a href="https://nubank.com.br/pagar/1bcou4/5D6eezlHdm"><img src="https://logodownload.org/wp-content/uploads/2020/02/pix-bc-logo.png" width="128"></a>
 </p>
 
 ### Bug Reporting Template:
