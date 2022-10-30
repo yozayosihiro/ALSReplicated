@@ -14,6 +14,8 @@ AALSBaseCharacter::AALSBaseCharacter(const FObjectInitializer& ObjectInitializer
 // Called when the game starts or when spawned
 void AALSBaseCharacter::BeginPlay()
 {
+	ALSCharacterComponent = Cast<UALSCharacterMovementComponent>(GetCharacterMovement());
+	
 	if(GetLocalRole() == ROLE_SimulatedProxy)
 	{
 		GetMesh()->GetAnimInstance()->SetRootMotionMode(ERootMotionMode::IgnoreRootMotion);
@@ -34,7 +36,7 @@ void AALSBaseCharacter::Tick(float DeltaTime)
 {
 	if(GetLocalRole() != ROLE_SimulatedProxy)
 	{
-		ControlRotation = FMath::RInterpTo(ControlRotation,  Controller ? Controller->GetControlRotation() : FRotator::ZeroRotator, DeltaTime, 30.0f);
+		ControlRotation = FMath::RInterpTo(ControlRotation,  GetControlRotation(), DeltaTime, 30.0f);
 	}
 	
 	Super::Tick(DeltaTime);
@@ -50,10 +52,5 @@ void AALSBaseCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME_CONDITION(AALSBaseCharacter, ControlRotation, COND_SkipOwner);
-}
-
-FRotator AALSBaseCharacter::GetControlRotation() const
-{
-	return ControlRotation;
 }
 

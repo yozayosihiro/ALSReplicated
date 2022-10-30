@@ -37,22 +37,22 @@ public:
 	void SetBrakingFricktionFactor(float Braking_FricktionFactor);
 	
 private:
-	UPROPERTY()
+	UPROPERTY(Replicated)
 	float NewMaxWalkSpeed = MaxWalkSpeed;
 	
-	UPROPERTY()
+	UPROPERTY(Replicated)
 	float NewMaxWalkSpeedCrounched = MaxWalkSpeedCrouched;
 
-	UPROPERTY()
+	UPROPERTY(Replicated)
 	float NewMaxAcceleration = MaxAcceleration;
 
-	UPROPERTY()
+	UPROPERTY(Replicated)
 	float NewBrakingDecelerationWalking = BrakingDecelerationWalking;
 	
-	UPROPERTY()
+	UPROPERTY(Replicated)
     float NewGroundFriction = GroundFriction;
 
-	UPROPERTY()
+	UPROPERTY(Replicated)
 	float NewBrakingFricktionFactor = BrakingFrictionFactor;
 
 	UFUNCTION(Server, Reliable, WithValidation)
