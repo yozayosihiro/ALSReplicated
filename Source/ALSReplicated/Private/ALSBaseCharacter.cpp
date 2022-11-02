@@ -14,7 +14,7 @@ AALSBaseCharacter::AALSBaseCharacter(const FObjectInitializer& ObjectInitializer
 // Called when the game starts or when spawned
 void AALSBaseCharacter::BeginPlay()
 {
-	ALSCharacterComponent = Cast<UALSCharacterMovementComponent>(GetCharacterMovement());
+	ALSCharacterMovement = Cast<UALSCharacterMovementComponent>(GetCharacterMovement());
 	
 	if(GetLocalRole() == ROLE_SimulatedProxy)
 	{

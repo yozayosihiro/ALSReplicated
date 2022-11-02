@@ -61,19 +61,9 @@ void UALSCharacterMovementComponent::Server_MaxWalkSpeed_Implementation(float Ma
 	NewMaxWalkSpeed = Max_WalkSpeed;
 }
 
-bool UALSCharacterMovementComponent::Server_MaxWalkSpeed_Validate(float Max_WalkSpeed)
-{
-	return true;
-}
-
 void UALSCharacterMovementComponent::Server_MaxWalkSpeedCrounched_Implementation(float Max_WalkSpeedCrounched)
 {
 	MaxWalkSpeedCrouched = Max_WalkSpeedCrounched;
-}
-
-bool UALSCharacterMovementComponent::Server_MaxWalkSpeedCrounched_Validate(float Max_WalkSpeedCrounched)
-{
-	return true;
 }
 
 void UALSCharacterMovementComponent::Server_MaxAcceleration_Implementation(float Max_Acceleration)
@@ -81,19 +71,9 @@ void UALSCharacterMovementComponent::Server_MaxAcceleration_Implementation(float
 	NewMaxAcceleration = Max_Acceleration;
 }
 
-bool UALSCharacterMovementComponent::Server_MaxAcceleration_Validate(float Max_Acceleration)
-{
-	return true;
-}
-
 void UALSCharacterMovementComponent::Server_BrakingDecelerationWalking_Implementation(float Braking_DecelerationWalking)
 {
 	NewBrakingDecelerationWalking = Braking_DecelerationWalking;
-}
-
-bool UALSCharacterMovementComponent::Server_BrakingDecelerationWalking_Validate(float Braking_DecelerationWalking)
-{
-	return true;
 }
 
 void UALSCharacterMovementComponent::Server_GroundFriction_Implementation(float Ground_Friction)
@@ -101,17 +81,7 @@ void UALSCharacterMovementComponent::Server_GroundFriction_Implementation(float 
 	NewGroundFriction = Ground_Friction;
 }
 
-bool UALSCharacterMovementComponent::Server_GroundFriction_Validate(float Ground_Friction)
-{
-	return true;
-}
-
 void UALSCharacterMovementComponent::Server_BrakingFricktionFactor_Implementation(float Braking_FricktionFactor)
 {
 	NewBrakingFricktionFactor = Braking_FricktionFactor;
-}
-
-bool UALSCharacterMovementComponent::Server_BrakingFricktionFactor_Validate(float Braking_FricktionFactor)
-{
-	return true;
 }

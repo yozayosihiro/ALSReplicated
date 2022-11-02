@@ -34,7 +34,7 @@ public:
 	FRotator ControlRotation = GetControlRotation();
 
 	UPROPERTY(BlueprintReadWrite, Category="ALS || Component")
-	UALSCharacterMovementComponent* ALSCharacterComponent;
+	UALSCharacterMovementComponent* ALSCharacterMovement;
 
 };
 
