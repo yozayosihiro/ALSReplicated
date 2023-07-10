@@ -14,9 +14,11 @@ AALSBaseCharacter::AALSBaseCharacter(const FObjectInitializer& ObjectInitializer
 // Called when the game starts or when spawned
 void AALSBaseCharacter::BeginPlay()
 {
+	Super::BeginPlay();
+
 	ALSCharacterMovement = Cast<UALSCharacterMovementComponent>(GetCharacterMovement());
-	
-	if(GetLocalRole() == ROLE_SimulatedProxy)
+
+	if (GetLocalRole() == ROLE_SimulatedProxy)
 	{
 		GetMesh()->GetAnimInstance()->SetRootMotionMode(ERootMotionMode::IgnoreRootMotion);
 	}
@@ -27,19 +29,16 @@ void AALSBaseCharacter::BeginPlay()
 	{
 		SetReplicates(true);
 	}
-	
-	Super::BeginPlay();
 }
 
 // Called every frame
 void AALSBaseCharacter::Tick(float DeltaTime)
 {
-	if(GetLocalRole() != ROLE_SimulatedProxy)
-	{
-		ControlRotation = FMath::RInterpTo(ControlRotation,  GetControlRotation(), DeltaTime, 30.0f);
-	}
-	
 	Super::Tick(DeltaTime);
+	if (GetLocalRole() != ROLE_SimulatedProxy)
+	{
+		ControlRotation = FMath::RInterpTo(ControlRotation, GetControlRotation(), DeltaTime, 30.0f);
+	}
 }
 
 // Called to bind functionality to input

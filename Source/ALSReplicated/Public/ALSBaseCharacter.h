@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "ALSCharacterMovementComponent.h"
 #include "Net/UnrealNetwork.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Animation/AnimInstance.h"
 #include "ALSBaseCharacter.generated.h"
 
 UCLASS()
